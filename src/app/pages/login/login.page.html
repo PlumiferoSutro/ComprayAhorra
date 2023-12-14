@@ -1,15 +1,21 @@
-<ion-content [fullscreen]="true" class="ion-padding">
-<ion-header>Compra y Ahorra</ion-header>
-<ion-card>
-  <ion-card-header>
-    <ion-card-title>Login</ion-card-title>
-    <ion-input placeholder="Usuario"></ion-input>
-    <ion-input placeholder="Contrasena"></ion-input>
-  </ion-card-header>
-  <ion-buttons>
-    <ion-button>Ingresar</ion-button>
-  </ion-buttons>
+<ion-content [fullscreen]="true" class="fondo">
+<ion-header>
+  <ion-title class="barra">Compra & Ahorra</ion-title>
+</ion-header>
+  <ion-card class="fondo2">
+    <ion-card-header class="centrar2">
+      <ion-card-title class="ion-padding centrar">
+        Login <ion-icon name="people-outline" class="icono"></ion-icon>
+      </ion-card-title>
 
-  <p><u>olvidaste tu contrasena</u></p>
-</ion-card>
+      <ion-input class="centrar" placeholder="Usuario"></ion-input>
+      <ion-input class="centrar" type="password" placeholder="Contraseña"></ion-input>
+
+      <div class="boton">
+        <ion-button class="myButton">Ingresar</ion-button>
+      </div>
+
+      <p class="centrar" href="#"><u>olvidaste tu contraseña</u></p>
+    </ion-card-header>
+  </ion-card>
 </ion-content>

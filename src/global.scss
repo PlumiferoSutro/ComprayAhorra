@@ -24,3 +24,55 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+
+
+
+.centrar{
+    margin-top: 20px;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    color: #0b0b0b;
+}
+
+.myButton {
+    border-radius:2px;
+    color:#e6dbdb;
+    padding: 10px 25px; 
+    --background: linear-gradient(180deg, rgb(70, 120, 134) 0%, rgb(58, 70, 95) 100%);
+    height: 50px; 
+    margin: 20px auto 0; 
+}
+
+.boton {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+}
+
+.fondo{
+    --background: linear-gradient(180deg, rgb(189, 232, 237) 0%, rgb(203, 211, 183) 100%);
+    color: #fffefe;
+    padding: 10px
+}
+
+.fondo2{
+    background-color: #fffbfb11;
+    border: none;
+}
+
+.barra{
+    background-color: #3d4b61;
+    color: #fffbfb;
+    padding: 10px
+}
+
+.icono {
+    margin-left: 8px; 
+}
+
+.centrar2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
